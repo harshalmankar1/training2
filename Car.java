@@ -30,8 +30,11 @@ class Car extends Vehicle
 
 	public static void main(String[] args) {
 		Vehicle c=new Car();
+		Vehicle d=new Car();
+		d.stat();
 		c.start();
 		c.stop();
+		d.stop();
 		Car cc=new Car();
 		cc.drive();
 	}
