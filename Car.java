@@ -31,7 +31,7 @@ class Car extends Vehicle
 	public static void main(String[] args) {
 		Vehicle c=new Car();
 		Vehicle d=new Car();
-		d.stat();
+		d.start();
 		c.start();
 		c.stop();
 		d.stop();
