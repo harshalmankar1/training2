@@ -12,7 +12,7 @@ class Car extends Vehicle
 	@Override
 	void start() {
 		// TODO Auto-generated method stub
-		System.out.println("Car started");
+		System.out.println("Car started driving");
 		
 	}
 
